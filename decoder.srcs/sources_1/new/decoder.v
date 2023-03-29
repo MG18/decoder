@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module decoder(input [4:0] s, output reg [6:0] d);
+module decoder(input [3:0] s, output reg [6:0] d);
 
 always @* 
 begin

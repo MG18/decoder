@@ -21,10 +21,11 @@
 
 
 module Fullmodule(input [3:0] a, input [3:0] b, output [4:0] s, output [6:0] D);
-wire [4:0] w0;
+wire [3:0] w0;
+wire co;
 
-FourBitAdder(a, b, w0);
-s[0] = w0[4];
+FourBitAdder(a, b, w0, co);
+assign s[4] = co;
 decoder(w0, D); 
 
 endmodule

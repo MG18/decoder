@@ -1,7 +1,7 @@
 Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2022.2.2 (win64) Build 3788238 Tue Feb 21 20:00:34 MST 2023
-| Date                      : Wed Mar 29 15:08:10 2023
+| Date                      : Wed Mar 29 20:34:39 2023
 | Host                      : MG running 64-bit major release  (build 9200)
 | Command                   : report_io -file Fullmodule_io_placed.rpt
 | Design                    : Fullmodule
@@ -271,7 +271,7 @@ Table of Contents
 | W15        | b[0]        | High Range | IO_L21N_T3_DQS_A06_D22_14    | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W16        | a[2]        | High Range | IO_L20P_T3_A08_D24_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W17        | a[3]        | High Range | IO_L20N_T3_A07_D23_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
-| W18        | s[4]        | High Range | IO_L16P_T2_CSI_B_14          | TRISTATE      | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| W18        | s[4]        | High Range | IO_L16P_T2_CSI_B_14          | OUTPUT        | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W19        |             | High Range | IO_L16N_T2_A15_D31_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 +------------+-------------+------------+------------------------------+---------------+-------------+---------+------------+------+---------------------+----------------------+---------+------------+-----------+----------+------+------------------+--------------+-------------------+--------------+
 * Default value
