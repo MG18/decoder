@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Wed Mar 29 15:07:19 2023
+# Process ID: 8732
+# Current directory: C:/Users/mehme/Documents/decoder/decoder.runs/synth_1
+# Command line: vivado.exe -log Fullmodule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Fullmodule.tcl
+# Log file: C:/Users/mehme/Documents/decoder/decoder.runs/synth_1/Fullmodule.vds
+# Journal file: C:/Users/mehme/Documents/decoder/decoder.runs/synth_1\vivado.jou
+# Running On: MG, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 34266 MB
+#-----------------------------------------------------------
+source Fullmodule.tcl -notrace
