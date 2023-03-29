@@ -1,7 +1,7 @@
 Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2.2 (win64) Build 3788238 Tue Feb 21 20:00:34 MST 2023
-| Date             : Wed Mar 29 20:34:54 2023
+| Date             : Wed Mar 29 22:34:54 2023
 | Host             : MG running 64-bit major release  (build 9200)
 | Command          : report_power -file Fullmodule_power_routed.rpt -pb Fullmodule_power_summary_routed.pb -rpx Fullmodule_power_routed.rpx
 | Design           : Fullmodule
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 15.194 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 18.084 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 14.932                           |
-| Device Static (W)        | 0.262                            |
+| Dynamic (W)              | 17.705                           |
+| Device Static (W)        | 0.379                            |
 | Effective TJA (C/W)      | 5.0                              |
-| Max Ambient (C)          | 9.0                              |
-| Junction Temperature (C) | 101.0                            |
+| Max Ambient (C)          | 0.0                              |
+| Junction Temperature (C) | 115.4                            |
 | Confidence Level         | Low                              |
 | Setting File             | ---                              |
 | Simulation Activity File | ---                              |
@@ -52,13 +52,13 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.077 |       14 |       --- |             --- |
-|   LUT as Logic |     0.077 |       11 |     20800 |            0.05 |
+| Slice Logic    |     0.086 |       18 |       --- |             --- |
+|   LUT as Logic |     0.086 |       13 |     20800 |            0.06 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.292 |       20 |       --- |             --- |
-| I/O            |    14.562 |       20 |       106 |           18.87 |
-| Static Power   |     0.262 |          |           |                 |
-| Total          |    15.194 |          |           |                 |
+| Signals        |     0.316 |       26 |       --- |             --- |
+| I/O            |    17.303 |       26 |       106 |           24.53 |
+| Static Power   |     0.379 |          |           |                 |
+| Total          |    18.084 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -68,16 +68,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.564 |       0.402 |      0.163 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.563 |       0.532 |      0.031 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     4.114 |       4.113 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.698 |       0.442 |      0.256 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.675 |       0.633 |      0.043 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     4.887 |       4.886 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram   |       1.000 |     0.004 |       0.000 |      0.004 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.007 |       0.000 |      0.007 |       NA    | Unspecified | NA         |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
@@ -132,10 +132,11 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+------------+-----------+
-| Name       | Power (W) |
-+------------+-----------+
-| Fullmodule |    14.932 |
-+------------+-----------+
++------------------+-----------+
+| Name             | Power (W) |
++------------------+-----------+
+| Fullmodule       |    17.705 |
+|   nolabel_line29 |     0.017 |
++------------------+-----------+
 
 
